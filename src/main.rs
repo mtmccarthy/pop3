@@ -11,7 +11,7 @@ use std::env;
 fn main() {
     let args: Vec<String> = env::args().collect();
     let user : &str = &*args[1];
-    let pass: &strgit  =&* args[2];
+    let pass: &str  =&* args[2];
     println!("Connecting to server");
 
     let mut stream = TcpStream::connect("pop.gmail.com:995").unwrap();
