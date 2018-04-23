@@ -1,0 +1,10 @@
+[package]
+name = "pop3"
+version = "0.1.0"
+authors = ["Matthew McCarthy <matthew.mccarthy@silabs.com>"]
+
+[lib]
+name = "pop3"
+path = "src/lib.rs"
+
+[dependencies]
